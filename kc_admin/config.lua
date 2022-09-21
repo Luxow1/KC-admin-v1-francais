@@ -44,35 +44,35 @@ Groups.Levels = {[Groups.User] = 0, [Groups.Helper] = 1, [Groups.Mod] = 2, [Grou
 
 -- Permisos --
 
-Permissions.OpenMenu        = {Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups.Server}
-Permissions.GetWarns        = {Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups.Server}
-Permissions.Warn            = {Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups.Server}
+Permissions.OpenMenu        = {Groups.Helper, Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups._dev}
+Permissions.GetWarns        = {Groups.Helper, Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups._dev}
+Permissions.Warn            = {Groups.Helper, Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups._dev}
 Permissions.DeleteWarn      = {Groups.Admin, Groups.SuperAdmin, Groups.Server}
-Permissions.Kick            = {Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups.Server}
-Permissions.Ban             = {Groups.Admin, Groups.SuperAdmin, Groups.Server}
-Permissions.GetBans         = {Groups.SuperAdmin, Groups.Server}
-Permissions.Bring           = {Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups.Server}
-Permissions.Goto            = {Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups.Server}
-Permissions.Return          = {Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups.Server}
-Permissions.Noclip          = {Groups.Admin, Groups.SuperAdmin, Groups.Server}
-Permissions.Visibility      = {Groups.Admin, Groups.SuperAdmin, Groups.Server}
-Permissions.Slay            = {Groups.Admin, Groups.SuperAdmin, Groups.Server}
-Permissions.Revive          = {Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups.Server}
-Permissions.Freeze          = {Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups.Server}
-Permissions.Jail            = {Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups.Server}
-Permissions.UnJail          = {Groups.Admin, Groups.SuperAdmin, Groups.Server}
-Permissions.Money           = {Groups.SuperAdmin, Groups.Server}
-Permissions.Jobs            = {Groups.Admin, Groups.SuperAdmin, Groups.Server}
-Permissions.Group           = {Groups.Admin, Groups.SuperAdmin, Groups.Server}
-Permissions.Report          = {Groups.Mod, Groups.Admin, Groups.SuperAdmin}
+Permissions.Kick            = {Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups._dev}
+Permissions.Ban             = {Groups.Admin, Groups.SuperAdmin, Groups._dev}
+Permissions.GetBans         = {Groups.SuperAdmin, Groups._dev}
+Permissions.Bring           = {Groups.Helper, Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups._dev}
+Permissions.Goto            = {Groups.Helper, Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups._dev}
+Permissions.Return          = {Groups.Helper, Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups._dev}
+Permissions.Noclip          = {Groups.Helper, Groups.Admin, Groups.SuperAdmin, Groups._dev}
+Permissions.Visibility      = {Groups.Admin, Groups.SuperAdmin, Groups._dev}
+Permissions.Slay            = {Groups.Admin, Groups.SuperAdmin, Groups._dev}
+Permissions.Revive          = {Groups.Helper, Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups._dev}
+Permissions.Freeze          = {Groups.Helper, Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups._dev}
+Permissions.Jail            = {Groups.Helper, Groups.Mod, Groups.Admin, Groups.SuperAdmin, Groups._dev}
+Permissions.UnJail          = {Groups.Helper, Groups.Admin, Groups.SuperAdmin, Groups._dev}
+Permissions.Money           = {Groups.SuperAdmin, Groups._dev}
+Permissions.Jobs            = {Groups.Helper, Groups.Admin, Groups.SuperAdmin, Groups._dev}
+Permissions.Group           = {Groups.SuperAdmin, Groups._dev}
+Permissions.Report          = {Groups.Helper, Groups.Mod, Groups.Admin, Groups.SuperAdmin}
 
 -- Permisos --
 
 -- Lenguaje --
 
-Lang.Error                      = "Error"
+Lang.Error                      = "Erreur"
 Lang.Success                    = "Aparcao"
-Lang.Minutes                    = "minutos"
+Lang.Minutes                    = "minutes"
 Lang.Plus                       = "mas"
 
 Lang.Kicked = "Créé avec succès "
